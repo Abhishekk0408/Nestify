@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    
+    background-color: #f5f7fb;
+  }
+body.dark {
+    background-color: #121923;
+  }
+
+  
+
+.swiper-button-next:after,
+.swiper-button-prev:after{
+    color: #a8dadc;
+}
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
+    background: #a8dadc !important
+}
+
+html::-webkit-scrollbar{
+    display: none;
+}
+
+html{
+    scrollbar-width: none;
+}
+
+.table-cell-space {
+    width: 50%; /* Adjust this value as needed to create the desired space */
+  }
